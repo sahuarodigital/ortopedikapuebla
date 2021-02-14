@@ -58,7 +58,7 @@ a:focus, a:active, button:focus, button:active, .btn.active.focus, .btn.active:f
 .theme-dark {color: #484b59;}
 .bg-drk {background-color: #484b59 !important;}
 .drk-blu {
-    color: #0284d0;}
+    color: #1D75BD ;}
 .light-blu {color: #27AAE1;}
 body {font-size: 14px;
     color: #7e8186;
@@ -207,9 +207,9 @@ ol, ul {margin: 0; padding: 0; list-style: none;}
 .btn.btn-yellow {background:#f2c900; border-color: #FFFFFF; color: #fff;font-size: 15px;}
 .btn.btn-yellow:hover, .btn.btn-yellow:focus {border-color: #f2c900; background: #FFFFFF; color: #f2c900 !important;font-size: 15px;}
 .btn.btn-blue {background:#27AAE1; border-color: #27AAE1; color: #fff;font-size: 15px;}
-.btn.btn-blue:hover, .btn.btn-black:focus {background: #0284d0; color: #FFFFFF !important; border-color:#0284d0; font-size: 15px;}
+.btn.btn-blue:hover, .btn.btn-black:focus {background: #1D75BD ; color: #FFFFFF !important; border-color:#1D75BD ; font-size: 15px;}
 
-.btn.btn-drk-blue {background:#0284d0; border-color: #0284d0; color: #fff;font-size: 15px;}
+.btn.btn-drk-blue {background:#1D75BD ; border-color: #1D75BD ; color: #fff;font-size: 15px;}
 .btn.btn-drk-blue:hover, .btn.btn-drk-blue:focus {background: #27AAE1; color: #FFFFFF !important; border-color:#27AAE1; font-size: 15px;}
 
 .btn.btn-green-blue {background:#53be53; border-color: #53be53; color: #fff;font-size: 15px;}
@@ -371,7 +371,7 @@ ol, ul {margin: 0; padding: 0; list-style: none;}
     border-radius: 36px;
 }
 .nav-radius .navbar-nav .nav-link.active {
-    background: #0284d0;
+    background: #1D75BD ;
     color: #ffffff !important;
 }
 
@@ -596,7 +596,7 @@ input, select, textarea {margin :0;}
     position: fixed;
     right: -1px;
     top: 0;
-    background: #0284d0;
+    background: #1D75BD ;
     z-index: 1032;
     height: 100%;
     -webkit-transform: translate3d(100%, 0, 0);
@@ -992,7 +992,7 @@ input, select, textarea {margin :0;}
     vertical-align: middle;
 }
 .feature-content .feature-col-2{
-    color: #0284d0;
+    color: #1D75BD ;
     display: -ms-flexbox!important;
     display: -webkit-box!important;
     display: flex!important;
@@ -1062,7 +1062,7 @@ input, select, textarea {margin :0;}
 }
 
 .feature-content .feature-col.two{
-    background: #0284d0;
+    background: #1D75BD ;
 }
 .feature-content .feature-col.three{
     background: #484b59;
@@ -1171,7 +1171,7 @@ input, select, textarea {margin :0;}
     font-weight: 400;
     margin-bottom: 1.5rem;
     text-transform: capitalize;
-    color: #0284d0;
+    color: #1D75BD ;
 }
 .main-title h2 {
     text-transform: capitalize;
@@ -1198,7 +1198,7 @@ input, select, textarea {margin :0;}
     margin-bottom: 1.5rem;
     font-size: 20px;
     text-transform: initial;
-    color: #0284d0;
+    color: #1D75BD ;
 }
 .main-title.style-two h2 {
     font-size: 48px;
@@ -1257,7 +1257,7 @@ input, select, textarea {margin :0;}
     color: #27AAE1;
 }
 .bar-dark{
-    background: #0284d0;}
+    background: #1D75BD ;}
 .bar-light {
     background: #27AAE1;}
 .skills{
@@ -1474,7 +1474,7 @@ input, select, textarea {margin :0;}
 
 .department-sub {font-size: 16px; margin-bottom: 20px;
     color: #7e8186; }
-.title-clr {color: #0284d0; }
+.title-clr {color: #1D75BD ; }
 .department-title h2 {font-size: 48px; margin-bottom: 80px; font-weight: 400; color: #3c3f46;
     font-family: 'Poppins', sans-serif;
 }
@@ -1515,7 +1515,7 @@ input, select, textarea {margin :0;}
     transition: all .6s ease;
 }
 .feature-item .icon-2 {
-    background-color: #0284d0;
+    background-color: #1D75BD ;
     width: 70px;
     height: 70px;
     max-width: 70px;
@@ -1538,7 +1538,7 @@ input, select, textarea {margin :0;}
 
 
 .feature-item:hover .icon{
-    background-color:#0284d0;
+    background-color:#1D75BD ;
     -webkit-transform: rotateY(-180deg);
     transform: rotateY(-180deg);
 }
@@ -1686,7 +1686,7 @@ input, select, textarea {margin :0;}
     max-width: 560px;
     margin: 0 15px;
     text-align: center;
-    background-color: #0284d0;
+    background-color: #1D75BD ;
     padding: 50px 30px;
 }
 .testimonial-item:hover h5 {
@@ -2286,9 +2286,9 @@ input[type=text]:focus {
     -o-transition: 0.5s;
     transition: 0.5s;
     background-size: 200% auto;
-    background-image: -webkit-gradient(linear, left top, right top, from(#0284d0), color-stop(51%, #27AAE1), to(#0284d0));
-    background-image: -o-linear-gradient(left, #0284d0 0%, #27AAE1 51%, #0284d0 100%);
-    background-image: linear-gradient(to right, #0284d0 0%, #27AAE1 51%, #0284d0 100%);
+    background-image: -webkit-gradient(linear, left top, right top, from(#1D75BD ), color-stop(51%, #27AAE1), to(#1D75BD ));
+    background-image: -o-linear-gradient(left, #1D75BD  0%, #27AAE1 51%, #1D75BD  100%);
+    background-image: linear-gradient(to right, #1D75BD  0%, #27AAE1 51%, #1D75BD  100%);
     background-size: 200% auto;
     border: none;
 
