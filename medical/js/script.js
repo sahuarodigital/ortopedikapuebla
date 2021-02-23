@@ -145,6 +145,23 @@ $("#testimonial_slider").owlCarousel({
     }
 });
 
+$("#testimonial_slider2").owlCarousel({
+    items: 1,
+    dots: true,
+    nav: false,
+    responsive:{
+        992:{
+            items:3
+        },
+        768:{
+            items:2
+        },
+        600:{
+            items:1
+        }
+    }
+});
+
 /* ===================================
             blog slider
    =================================== */
