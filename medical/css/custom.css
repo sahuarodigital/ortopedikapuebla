@@ -4,3 +4,15 @@
     box-shadow: 6px 7px 20px -7px rgba(0,0,0,0.4);
 border-radius: 10px;
 }
+
+.footer-sec {
+    padding: 1.5rem 0 1.5rem;
+}
+
+.testimonial-subtitle{
+    margin-bottom: 20px;
+}
+
+section{
+    padding: 50px 0px 50px 0px;
+}
