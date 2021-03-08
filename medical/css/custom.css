@@ -16,3 +16,23 @@ border-radius: 10px;
 section{
     padding: 50px 0px 50px 0px;
 }
+
+.blog-banner h1{
+  color:#1d75ba;  
+}
+
+.blog-banner p{
+  color:#89c443;
+}
+
+.blog-banner a {
+    color:#89c443 !important; 
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+.open_search{
+    display: none;
+}

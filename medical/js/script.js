@@ -56,8 +56,15 @@ jQuery(function ($) {
 
     $(".scroll").on("click", function(event){
         event.preventDefault();
-        $('html,body').animate({
-            scrollTop: $(this.hash).offset().top - 40}, 1100);
+        try{
+            $('html,body').animate({
+                scrollTop: $(this.hash).offset().top - 40}, 1100);
+        }catch(err){
+            //console.log(err);
+        }
+        
+
+
     });
 
 
