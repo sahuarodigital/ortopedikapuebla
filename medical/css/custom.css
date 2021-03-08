@@ -36,3 +36,7 @@ a:hover{
 .open_search{
     display: none;
 }
+
+.blog-body{
+    padding: 5rem;
+}
