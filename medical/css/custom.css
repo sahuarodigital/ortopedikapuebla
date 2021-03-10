@@ -40,3 +40,22 @@ a:hover{
 .blog-body{
     padding: 5rem;
 }
+
+.btn-whatsapp {
+    display:block;
+    width:60px;
+    height:60px;
+    color:#fff;
+    position: fixed;
+    right:20px;
+    bottom:25px;
+    border-radius:50%;
+    line-height:80px;
+    text-align:center;
+    z-index:999;
+}
+
+.btn-whatsapp:hover{
+    width:63px;
+    height:63px;
+}
