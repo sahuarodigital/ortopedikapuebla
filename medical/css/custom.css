@@ -59,3 +59,66 @@ a:hover{
     width:63px;
     height:63px;
 }
+
+.contenedor-botones{
+    left: auto;
+    width: 6%;
+    padding-left: 1rem;
+}
+
+.contenedor-botones a i{
+    margin-top: 4px;
+    color: white;
+}
+
+.redes{
+    width: 30%;
+}
+
+.redes a {
+    display: block;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.redes a:hover{
+    width: 60px;
+    height: 60px;
+}
+
+.face{
+    background-color: #1d75ba;
+    color:white;
+    width: 55px;
+    height: 55px;
+    line-height: 62px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: rgb(0, 0, 0,0.4);
+    transition: all 500ms ease;
+    cursor: pointer;
+}
+/*
+.face:hover{
+    background-color: white;
+    color: #1d75ba;
+}
+*/
+.whats{
+    background-color:#89c443;
+    color:white;
+    width: 55px;
+    height: 55px;
+    line-height: 62px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: rgb(0, 0, 0,0.4);
+    transition: all 500ms ease;
+    cursor: pointer;
+}
+/*
+.whats:hover{
+    background-color: white;
+    color: #89c443;
+}
+*/
