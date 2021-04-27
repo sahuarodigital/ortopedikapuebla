@@ -1750,9 +1750,10 @@ input, select, textarea {margin :0;}
     transition: all .3s ease-in-out !important;
 }
 .testimonial-item .destination{
-    font-size: 13px;
-    font-weight: 400;
+    font-size: 15px;
+    font-weight: 600;
     color: #616161;
+    color: rgb(93 90 90);
     -webkit-transition: all .3s ease-in-out !important;
     -o-transition: all .3s ease-in-out !important;
     transition: all .3s ease-in-out !important;
