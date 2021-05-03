@@ -62,8 +62,8 @@ a:hover{
 
 .contenedor-botones{
     left: auto;
-    width: 6%;
-    padding-left: 1rem;
+    width: 4rem;
+    /*padding-left: 1rem;*/
 }
 
 .contenedor-botones a i{
@@ -122,3 +122,4 @@ a:hover{
     color: #89c443;
 }
 */
+
