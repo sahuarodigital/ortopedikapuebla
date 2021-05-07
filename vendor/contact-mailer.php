@@ -11,9 +11,9 @@ if($_POST)
 
     $mail = new PHPMailer();
 
-    $your_email = "youremail@website.com";
+    $your_email = "contacto@ortopedikapuebla.com";
 
-
+    
     //check if its an ajax request, exit if not
     if(!isset($_SERVER['HTTP_X_REQUESTED_WITH']) AND strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) != 'xmlhttprequest') {
 
@@ -267,13 +267,13 @@ if($_POST)
 
 
     //Server settings
-//    $mail->isSMTP();                                            // Send using SMTP
-//    $mail->Host       = 'smtp.googlemail.com';                    // Set the SMTP server to send through
-//    $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-//    $mail->Username   = 'website@gmail.com';                     // SMTP username
-//    $mail->Password   = 'your password';                         // SMTP password
-//    $mail->SMTPSecure = 'TLS';         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` also accepted
-//    $mail->Port       = 587;                                    // TCP port to connect to
+    $mail->isSMTP();                                            // Send using SMTP
+    $mail->Host       = 'mail.ortopedikapuebla.com';                    // Set the SMTP server to send through
+    $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
+    $mail->Username   = 'contacto@ortopedikapuebla.com';                     // SMTP username
+    $mail->Password   = 'Ortopedika2021';                         // SMTP password
+    $mail->SMTPSecure = 'TLS';         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` also accepted
+    $mail->Port       = 587;                                    // TCP port to connect to
 
     //Recipients
     $mail->setFrom($user_Email,$user_Name);
@@ -283,8 +283,8 @@ if($_POST)
 
     // Content
     $mail->isHTML(true);                                  // Set email format to HTML
-    $mail->Subject = 'New Contact Inquiry from your Website';
-    $mail->Body  = "<h4 style='text-align: center;padding: 25px 15px;background-color: #0c6c9e;color: #FFFFFF;font-size:16px;width:90%;border-radius: 10px;'>Hi There! You have a new inquiry from your website.</h4><br><br>";
+    $mail->Subject = 'Consulta de nuevo contacto desde su sitio web';
+    $mail->Body  = "<h4 style='text-align: center;padding: 25px 15px;background-color: #0c6c9e;color: #FFFFFF;font-size:16px;width:90%;border-radius: 10px;'> Hola!, Tiene una nueva consulta de su sitio web.</h4><br><br>";
 
     if(isset($_POST["userEmail"])) {
         $mail->Body .= "<strong>Email: </strong>" . $user_Email . "<br>";
@@ -343,9 +343,9 @@ if($_POST)
     $mail->Body .= '<br>';
 
     if(isset($_POST["userMessage"])) {
-        $mail->Body .= "<strong>Message: </strong><br><br><div style='background-color: #EDEFF2;padding:30px 15px;border-radius:10px;min-height:50px;width:90%;'>" . $user_Message . "</div><br>";
+        $mail->Body .= "<strong>Mensaje: </strong><br><br><div style='background-color: #EDEFF2;padding:30px 15px;border-radius:10px;min-height:50px;width:90%;'>" . $user_Message . "</div><br>";
     }
-    $mail->Body .= '<strong>Best Regards,</strong><br>';
+    $mail->Body .= '<strong>Atentamente,</strong><br>';
 
     if(isset($user_Name)) {
         $mail->Body .= $user_Name . "<br>";
@@ -358,10 +358,10 @@ if($_POST)
 
     if(!$mail->send())
     {
-        $output = json_encode(array('type'=>'error', 'text' => 'Could not send mail! Please check your PHP mail configuration.'));
+        $output = json_encode(array('type'=>'error', 'text' => 'No se pudo enviar el mensaje! Por favor verifique su configuración de PHP Mail.'));
         die($output);
     }else{
-        $output = json_encode(array('type'=>'message', 'text' => 'Hi '.$user_Name .' Thank you for contacting us.'));
+        $output = json_encode(array('type'=>'message', 'text' => 'Hi '.$user_Name .' Gracias por contactar con nosotros.'));
         die($output);
     }
 }
