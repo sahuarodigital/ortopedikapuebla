@@ -128,3 +128,7 @@ a:hover{
 .color-tres{
     background-color: #1D75BD !important;
 }
+
+.form-control:focus {
+    background-color: #42969e59;
+}
