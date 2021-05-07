@@ -271,7 +271,7 @@ if($_POST)
     $mail->Host       = 'mail.ortopedikapuebla.com';                    // Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
     $mail->Username   = 'contacto@ortopedikapuebla.com';                     // SMTP username
-    $mail->Password   = 'Ortopedika2021';                         // SMTP password
+    $mail->Password   = 'Ortopedikapuebla2021';                         // SMTP password
     $mail->SMTPSecure = 'TLS';         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` also accepted
     $mail->Port       = 587;                                    // TCP port to connect to
 
