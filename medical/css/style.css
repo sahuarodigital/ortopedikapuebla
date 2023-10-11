@@ -1589,10 +1589,12 @@ input, select, textarea {margin :0;}
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
 }
-.owl-carousel .owl-stage-outer {cursor: pointer;}
+.owl-carousel .owl-stage-outer {cursor: pointer; display: grid;
+    place-items: center;}
 .nav-pills .nav-link {margin-left: 10px; border: 1px solid #e1e1e1;
     font-family: 'Poppins', sans-serif;
     color: #3c3f46;}
+    
 .da-thumbs li {
     margin: 1px;
     width: 33.1%;
